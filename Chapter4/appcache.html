@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html manifest="demo_html.appcache">
+<body>
+<script>
+function getDateTime()
+{
+var d=new Date();
+document.getElementById('timePara').innerHTML=d;
+}
+</script>
+<p id="timePara"><button onclick="getDateTime()">Get Date and Time</button></p>
+<p><img src="vedisoft.png" width="336" height="119"></p>
+<p>Try opening <a href="appcache.html" target="_blank">this page</a>, then go offline, and reload the page. The script and the image should still work.</p>
+</body>
+</html>
