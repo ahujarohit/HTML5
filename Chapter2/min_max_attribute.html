@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <form action="demo_form.asp">
+        Enter a Date before "1980-01-01" :
+                       <input type="date" name="bday" max="1979-12-31"><br>
+        Enter a Date after "2000-01-01" :
+                       <input type="date" name="bday" min="2000-01-02"><br>
+        Enter a Quantity (between 1 to 5) :
+        <input type="number" name="quantity" min="1" max="5">
+        <input type="submit" value="Submit">
+    </form>
+    <p><b>Note :</b> The max and min attribute of the input tag is not supported Internet Explorer 9 and earlier versions. </p>
+    <p><b>Note :</b> The max and min attribute will not work for dates and time with Internet Explorer 10, sine IE 10 does not support these input type. </p>
+
+</body>
+</html>
